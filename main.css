@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(70, 69, 72);
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.creation-date {
+    color: gray;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(18, 5, 206);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold ;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(10, 153, 10, 0.455);
+}
+
+#sports h2 {
+    color: #f4f4f4
+}
+
+#sports .articles article a {
+    background-color: rgb(2, 255, 2);
+}
+
+#economy {
+    background-color: rgba(255, 255, 0, 0.655);
+}
+
+#economy .articles article a {
+    background-color: #7f8802;
+}
+
+#entertainment {
+    background-color: #a0030361;
+}
+
+#entertainment .articles article a {
+    background-color: #e10303;
+}
+
+#technology {
+    background-color: #2e00e81a;
+}
+
+#tecnology .articles article a {
+    background-color: #2705abed;
+}
+
+hr {
+    border: none;
+    height: 8px;
+    background-color: gray;
+}
